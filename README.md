@@ -66,5 +66,4 @@ The engine maintains a `ConcurrentHashMap` of parsed schemata to ensure high-per
 
 ## 📜 Legal
 
-This project is governed by the principles of immutable software architecture. See `LICENSE.md` for the specific terms of use.  
-_Axiom Language is licensed under the [GNU Lesser General Public License version 3.0 (LGPLv3)](https://opensource.org/license/LGPL-3.0)._
+This project is governed by the principles of immutable software architecture. See `LICENSE.md` for the specific terms of use.
