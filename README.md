@@ -43,7 +43,7 @@ The `SchemaGuard` serves as the registry and primary validator.
 import com.ensemblu.axiom.schema.SchemaGuard;
 
 // Executes the validation handshake
-final var result = SchemaGuard.checkContent(rawContent)
+final var result = SchemaGuard.checkContent(contentString.getBytes(StandardCharsets.UTF_8))
     .basedOnSchemaName("user-profile")
     .withAxiomParser();
 ```
