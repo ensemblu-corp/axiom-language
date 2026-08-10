@@ -12,14 +12,14 @@ Summon the Language processor into your project:
 <dependency>
     <groupId>com.ensemblu</groupId>
     <artifactId>axiom-language</artifactId>
-    <version>1.0.0</version>
+    <version>2.0.0</version>
 </dependency>
 ```
 
 **Gradle**
 
 ```groovy
-implementation("com.ensemblu:axiom-language:1.0.0")
+implementation("com.ensemblu:axiom-language:2.0.0")
 ```
 
 ## ⚖️ Sovereign Law
@@ -43,7 +43,7 @@ The `SchemaGuard` serves as the registry and primary validator.
 import com.ensemblu.axiom.schema.SchemaGuard;
 
 // Executes the validation handshake
-final var result = SchemaGuard.checkContent(rawJsonString)
+final var result = SchemaGuard.checkContent(rawContent)
     .basedOnSchemaName("user-profile")
     .withAxiomParser();
 ```
